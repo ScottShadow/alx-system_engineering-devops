@@ -1,0 +1,3 @@
+#!/bin/bash
+DA="$1"
+printf "beauty is \n%s\n" "$(cat $DA)"
