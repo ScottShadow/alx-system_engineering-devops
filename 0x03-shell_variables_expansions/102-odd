@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "lol"
+printf "0-alias\n101-rot13\n103-water_and_stir\n11-binary_to_decimal\n13-print_float\n2-path\n4-global_variables\n6-create_local_variable\n8-true_knowledge\nquote\ntest"

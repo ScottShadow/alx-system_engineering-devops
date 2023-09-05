@@ -1,3 +1,2 @@
 #!/bin/bash
-DA="$1"
-printf "beauty is \n%s\n" "$(cat $DA)"
+printf "\"Rirelbar vf n cebcbarag bs fgebat rapelcgvba.\"\n- Qbebgul R. Qraavat\n"
