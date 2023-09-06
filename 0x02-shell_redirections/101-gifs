@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1Rp | find -type f | rev | cut -d "/" -f 1 | cut -d "." -f 2 | rev
+ls -1Rp --ignore='.gif' | find -type f | rev | cut -d "/" -f 1 | cut -d "." -f 2 | rev
