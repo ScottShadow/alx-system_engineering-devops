@@ -9,7 +9,9 @@ while((hour <= 12)); do
     if ((min == 60)); then
         min=0
         ((hour++))
-        echo "Hour: $hour"
+        if ((hour < 13)); then
+            echo "Hour: $hour"
+        fi
     else
         echo "$min"
     fi
