@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #For ls
-for file in *; do
-    if [ -f "$file" ]; then
-        echo "$file"
-    fi
+
+list=$(ls)
+for file in $list; do
+        echo "$file" | cut -d '-' -f2
 done
