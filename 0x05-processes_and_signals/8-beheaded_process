@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+#To infinity and beyond stopper
+pkill -9 -f 7-highlander
