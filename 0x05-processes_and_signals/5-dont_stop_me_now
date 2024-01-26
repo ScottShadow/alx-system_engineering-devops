@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#To infinity and beyond stopper
+pidlist=$(pgrep "bash")
+count=0
+for i in $pidlist; do
+    ((count++))
+done
+if [ $count -lt 5 ]; then
+    echo "Not enough instances of the 'bash' process found (found $count). Exiting."
+    exit
+fi
+count=0
+for i in $pidlist; do
+    ((count++))
+    if [ $count == 4 ]; then
+        kill "$i"
+        echo "Killed the fourth instance of bash with PID: $i"
+    fi
+done
