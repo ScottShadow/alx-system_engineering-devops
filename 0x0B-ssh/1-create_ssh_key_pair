@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #SSH KEY CREATION Passphrase:Betty Name:school
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/school -N "betty" -C "rudaseswascottmc@gmail.com"
+ssh-keygen -t rsa -b 4096 -f ./school -N "betty" -C "rudaseswascottmc@gmail.com"
