@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 #auto puppet connection
 
 file {  "/etc/ssh/ssh_config":
